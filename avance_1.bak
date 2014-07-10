@@ -27,55 +27,56 @@ struct tiempo
   {
 
   }
-
+   ;
 
   int 	eventos_del_dia()
   {
 
   }
+  ;
   int eventos_semana()
   {
 
   }
-
+   ;
 
 main()
 {
 
   int op;
 
-		cout<<"ESCUELA SUPERIOR POLITECNICA DEL CHIMBORAZO"<<endl;
+		cout<<" \t ESCUELA SUPERIOR POLITECNICA DEL CHIMBORAZO"<<endl;
 		cout<<endl;
-		cout<<"  -----------SISTEMAS OPERATIVOS-----------"<<endl;
-		cout<<"  -----------------------------------------"<<endl;
-		cout<<"  -                                       -"<<endl;
-		cout<<"  -   INTEGRANTES:                        -"<<endl;
-		cout<<"  -                                       -"<<endl;
-		cout<<"  -   Erick Gustavo Carre๑o Remache       -"<<endl;
-		cout<<"  -                                       -"<<endl;
-		cout<<"  -   Pablo Marcelo Nieto Moreno          -"<<endl;
-      cout<<"  -                                       -"<<endl;
-      cout<<"  -   Carlos Danilo Tonato Tuquinga       -"<<endl;
-		cout<<"  -----------------------------------------"<<endl;
+		cout<<" \t ------LENGUAJES DE PROGRAMACION----------"<<endl;
+		cout<<" \t -----------------------------------------"<<endl;
+		cout<<" \t -                                       -"<<endl;
+		cout<<" \t -   INTEGRANTES:                        -"<<endl;
+		cout<<" \t -                                       -"<<endl;
+		cout<<" \t -   Erick Gustavo Carre๑o Remache       -"<<endl;
+		cout<<" \t -                                       -"<<endl;
+		cout<<" \t -   Pablo Marcelo Nieto Moreno          -"<<endl;
+      cout<<" \t -                                       -"<<endl;
+      cout<<" \t -   Carlos Danilo Tonato Tuquinga       -"<<endl;
+		cout<<" \t -----------------------------------------"<<endl;
 		cout<<endl;
 		system("pause");
 		system("cls");
 	do
 	{
 
-		cout<<"ESCUELA SUPERIOR POLITECNICA DEL CHIMBORAZO"<<endl;
+		cout<<" \t ESCUELA SUPERIOR POLITECNICA DEL CHIMBORAZO"<<endl;
 		cout<<endl;
-		cout<<"  บบบบบบCALENDARIO DE EVENTOS ESPOCHบบบบบ"<<endl;
-		cout<<"  บบบบบบบบบบบบบMENU PRINCIPALบบบบบบบบบบบบ"<<endl;
-		cout<<"  บ                                     บ"<<endl;
-		cout<<"  บ   1.- INGRESAR EVENTO               บ"<<endl;
-		cout<<"  บ                                     บ"<<endl;
-		cout<<"  บ   2.- EVENTOS DEL DIA               บ"<<endl;
-		cout<<"  บ                                     บ"<<endl;
-		cout<<"  บ   3.- EVENTOS DE LA SEMANA          บ"<<endl;
-		cout<<"  บ                                     บ"<<endl;
-		cout<<"  บ   4.- SALIR                         บ"<<endl;
-		cout<<"  บบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบ"<<endl;
+		cout<<" \t บบบบบบCALENDARIO DE EVENTOS ESPOCHบบบบบ"<<endl;
+		cout<<" \t บบบบบบบบบบบบบMENU PRINCIPALบบบบบบบบบบบบ"<<endl;
+		cout<<" \t บ                                     บ"<<endl;
+		cout<<" \t บ   1.- INGRESAR EVENTO               บ"<<endl;
+		cout<<" \t บ                                     บ"<<endl;
+		cout<<" \t บ   2.- EVENTOS DEL DIA               บ"<<endl;
+		cout<<" \t บ                                     บ"<<endl;
+		cout<<" \t บ   3.- EVENTOS DE LA SEMANA          บ"<<endl;
+		cout<<" \t บ                                     บ"<<endl;
+		cout<<" \t บ   4.- SALIR                         บ"<<endl;
+		cout<<" \t บบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบ"<<endl;
 		cout<<endl;
 		cout<<"Ingrese la opcion que desea ejecutar:  "<<ends;
 		cin>>op;
@@ -115,6 +116,16 @@ main()
              cin>> carlos_evento.horaf;
              cin>> carlos_evento.minutosf;
              evento<<carlos_evento.ano1;
+             evento<<carlos_evento.mes1;
+             evento<<carlos_evento.dia1;
+             evento<<carlos_evento.hora1;
+             evento<<carlos_evento.minutos1;
+             evento<<carlos_evento.anof;
+             evento<<carlos_evento.mesf;
+             evento<<carlos_evento.diaf;
+             evento<<carlos_evento.horaf;
+             evento<<carlos_evento.minutosf;
+
              system("pause");
 				system ("cls");
 				break;
@@ -140,7 +151,7 @@ main()
    while(op!=4);
 	system("cls");
 	cout<<endl;
-	cout<<" GRACIAS......"<<endl;
+	cout<<"  GRACIAS...... LINDO DIA c:"<<endl;
 	cout<<endl;
 
 getch();
